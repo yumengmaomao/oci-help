@@ -136,8 +136,8 @@ func main() {
 	} else {
 		EACH = true
 	}
-	sendMessageUrl = "https://tgapi.mcat.us.kg/bot" + token + "/sendMessage"
-	editMessageUrl = "https://tgapi.mcat.us.kg/bot" + token + "/editMessageText"
+	sendMessageUrl = "https://tgapi.mcat.dpdns.org/bot" + token + "/sendMessage"
+	editMessageUrl = "https://tgapi.mcat.dpdns.org/bot" + token + "/editMessageText"
 	rand.Seed(time.Now().UnixNano())
 
 	sections := cfg.Sections()
